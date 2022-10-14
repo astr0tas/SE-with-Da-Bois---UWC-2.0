@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T16:22:49.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="zy1elz4txk0_DOVTWpqH" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T16:22:55.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="lpTsM7EAc2pM5AbWhdEt" version="20.4.0" type="github">
   <diagram id="wTYYPFrZuewPzAmAuWwE" name="Page-1">
     <mxGraphModel dx="2889" dy="2291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -517,14 +517,6 @@
             <mxPoint x="887.2799999999999" y="2690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkrP5aUea3qUz_NBRGNI-94" value="Cập nhật trạng thái mới tương ứng với ca làm cho các khu vực" style="endArrow=classic;html=1;rounded=0;exitX=1.067;exitY=0.581;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
-          <mxGeometry x="0.0085" y="-11" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="642.9499999999995" y="2880.2300000000005" as="sourcePoint" />
-            <mxPoint x="882.2799999999985" y="2880" as="targetPoint" />
-            <Array as="points" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="6wIm65cFakoA2pX9dvvW-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="631.14" y="80" width="10" height="2980" as="geometry" />
         </mxCell>
@@ -539,6 +531,14 @@
         </mxCell>
         <mxCell id="6wIm65cFakoA2pX9dvvW-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="91.14" y="80" width="10" height="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="zkrP5aUea3qUz_NBRGNI-94" value="Cập nhật trạng thái mới tương ứng với ca làm cho các khu vực" style="endArrow=classic;html=1;rounded=0;exitX=1.067;exitY=0.581;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry x="0.0085" y="-11" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="642.9499999999995" y="2880.2300000000005" as="sourcePoint" />
+            <mxPoint x="882.2799999999985" y="2880" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
