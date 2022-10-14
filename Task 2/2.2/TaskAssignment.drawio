@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T16:52:12.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="JZIDuy_-w8Ig0dPwiF_1" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T16:52:57.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="fF3XCzz4qi_ER2sBqlDa" version="20.4.0" type="github">
   <diagram id="wTYYPFrZuewPzAmAuWwE" name="Page-1">
     <mxGraphModel dx="2998" dy="2350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6wIm65cFakoA2pX9dvvW-33" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="2990" width="1045" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="6wIm65cFakoA2pX9dvvW-38" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-156" y="2780" width="1140" height="710" as="geometry" />
+        </mxCell>
         <mxCell id="6wIm65cFakoA2pX9dvvW-36" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-170" y="1890" width="1140" height="560" as="geometry" />
         </mxCell>
@@ -423,15 +429,15 @@
         </mxCell>
         <mxCell id="zkrP5aUea3qUz_NBRGNI-80" value="Show map" style="endArrow=classic;html=1;rounded=0;exitX=-0.06;exitY=0.234;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.957;entryY=0.234;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0426" y="-10" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="631.1399999999991" y="2770" as="sourcePoint" />
-            <mxPoint x="381.30999999999915" y="2770" as="targetPoint" />
+            <mxPoint x="631.1399999999991" y="2760" as="sourcePoint" />
+            <mxPoint x="381.30999999999915" y="2760" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zkrP5aUea3qUz_NBRGNI-83" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;[ Section has not been assigned]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-82.72" y="3070" width="102.72" height="11" as="geometry" />
         </mxCell>
-        <mxCell id="zkrP5aUea3qUz_NBRGNI-84" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;[ Section has been assigned ]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="zkrP5aUea3qUz_NBRGNI-84" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;[ Section has already been assigned ]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-82.72" y="3260" width="92.72" height="11" as="geometry" />
         </mxCell>
         <mxCell id="zkrP5aUea3qUz_NBRGNI-85" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=16;exitX=0;exitY=0.66;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.005;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="1" edge="1">
@@ -626,9 +632,6 @@
             <mxPoint x="885" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6wIm65cFakoA2pX9dvvW-33" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-95" y="2990" width="1040" height="470" as="geometry" />
-        </mxCell>
         <mxCell id="zkrP5aUea3qUz_NBRGNI-41" value="Route status" style="endArrow=classic;html=1;rounded=0;exitX=-0.2;exitY=0.507;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" parent="1" edge="1">
           <mxGeometry x="-0.0426" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="876.71" y="2030" as="sourcePoint" />
@@ -652,6 +655,9 @@
         </mxCell>
         <mxCell id="6wIm65cFakoA2pX9dvvW-37" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;[ Until the route is assigned ]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-130" y="1960" width="110" height="11" as="geometry" />
+        </mxCell>
+        <mxCell id="6wIm65cFakoA2pX9dvvW-39" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;[ Until the section is assigned ]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="2850" width="110" height="11" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
