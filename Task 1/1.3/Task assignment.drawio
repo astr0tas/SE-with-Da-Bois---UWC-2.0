@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T20:39:17.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Bh2Mz1SdQgQJ8q44BRtX" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T20:39:30.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="9qWAFhJtlPatNcELVDEg" version="20.4.1" type="github">
   <diagram id="GnzRtK2g57-_hA0YiGj8" name="Page-1">
     <mxGraphModel dx="2090" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
             <mxPoint x="180" y="765" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LrnH2bmJAiJrqHN9fv6w-10" value="Giao xe" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="LrnH2bmJAiJrqHN9fv6w-10" value="Giao phương tiện" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="350" y="590" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LrnH2bmJAiJrqHN9fv6w-11" value="Gửi tình trạng MCPs" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
