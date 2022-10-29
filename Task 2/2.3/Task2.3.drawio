@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T05:53:21.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="mSFQmw0OPu9vpRanvv-B" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T06:35:07.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="eYSqHRQFwTZrqoBwKG_t" version="20.5.1" type="github">
   <diagram id="0676zuflFlZL_lo655or" name="Page-1">
     <mxGraphModel dx="2518" dy="1335" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -294,13 +294,13 @@
             <mxRectangle x="-210" y="-60" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3Wop59lbqcqgArPASlSX-34" value="- route:Route&#xa;- mcps: vector&lt;MCPs&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3Wop59lbqcqgArPASlSX-33" vertex="1">
+        <mxCell id="3Wop59lbqcqgArPASlSX-34" value="- street: vector&lt;string&gt;&#xa;- mcps: vector&lt;MCPs&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3Wop59lbqcqgArPASlSX-33" vertex="1">
           <mxGeometry y="26" width="290" height="54" as="geometry" />
         </mxCell>
         <mxCell id="3Wop59lbqcqgArPASlSX-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="3Wop59lbqcqgArPASlSX-33" vertex="1">
           <mxGeometry y="80" width="290" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="3Wop59lbqcqgArPASlSX-36" value="+ displayFullMap(): void&#xa;+ displaySelectedMCPs(mpcs: MPCs): void&#xa;+ displaySelectedStreer(street: vector&lt;string&gt;): void&#xa;+ getSelectedMCPs(): vector&lt;MCPs&gt;&#xa;+ getSelectedStreet(): vector&lt;string&gt;&#xa;+ calculateDistance(street: vector&lt;string&gt;): int&#xa;+ findBestRoute(street: vector&lt;string&gt;,&#xa;mcps: vector&lt;MCPs&gt;, vehicle: Vehicle): Route" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3Wop59lbqcqgArPASlSX-33" vertex="1">
+        <mxCell id="3Wop59lbqcqgArPASlSX-36" value="+ displayFullMap(): void&#xa;+ displaySelectedMCPs(mpcs: MPCs): void&#xa;+ displaySelectedStreet(street: vector&lt;string&gt;): void&#xa;+ getSelectedMCPs(): vector&lt;MCPs&gt;&#xa;+ getSelectedStreet(): vector&lt;string&gt;&#xa;+ calculateDistance(street: vector&lt;string&gt;): int&#xa;+ findBestRoute(street: vector&lt;string&gt;,&#xa;mcps: vector&lt;MCPs&gt;, vehicle: Vehicle): Route" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3Wop59lbqcqgArPASlSX-33" vertex="1">
           <mxGeometry y="88" width="290" height="132" as="geometry" />
         </mxCell>
         <mxCell id="3Wop59lbqcqgArPASlSX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=1;endArrow=none;endFill=0;endSize=17;jumpStyle=arc;" parent="1" source="3Wop59lbqcqgArPASlSX-43" edge="1">
