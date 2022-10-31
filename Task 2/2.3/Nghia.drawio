@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T11:18:27.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GILHwpR6Df8uTz9O38di" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T11:23:40.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="2E51UDy6bgtAu1-Oq7xR" version="20.5.1" type="github">
   <diagram id="it1Z7c8Y9GFUxKlOiuhM" name="Page-1">
-    <mxGraphModel dx="3425" dy="1659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4078" dy="1998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -163,7 +163,7 @@
           <mxGeometry y="98" width="345" height="62" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-70" value="MCPsController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-910" y="-28" width="450" height="126" as="geometry" />
+          <mxGeometry x="-910" y="-28" width="450" height="160" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-71" value="- mcps: vector&lt;MCPs&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-70" vertex="1">
           <mxGeometry y="26" width="450" height="24" as="geometry" />
@@ -171,8 +171,8 @@
         <mxCell id="rfrBUhaxzowPUc6iKHgh-72" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="rfrBUhaxzowPUc6iKHgh-70" vertex="1">
           <mxGeometry y="50" width="450" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="rfrBUhaxzowPUc6iKHgh-73" value="+ addMCP(ID: int, address: string, capacity: int, status: int): void&#xa;+ removeMCP(ID: int): bool&#xa;+ getMCPList(): vector&lt;MCPs&gt;&#xa;+ getMCPInfo(ID: int): MCPs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-70" vertex="1">
-          <mxGeometry y="58" width="450" height="68" as="geometry" />
+        <mxCell id="rfrBUhaxzowPUc6iKHgh-73" value="+ addMCP(ID: int, address: string, capacity: int, status: int): void&#xa;+ removeMCP(ID: int): bool&#xa;+ getMCPList(): vector&lt;MCPs&gt;&#xa;+ getMCPInfo(ID: int): MCPs&#xa;+ updateMCPInfo(ID: int, address: string, maxCapacity: int): bool&#xa;+ updateMCPCurrentCapacity(ID: int,currentCapacity: int): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-70" vertex="1">
+          <mxGeometry y="58" width="450" height="102" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-74" value="Map" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneLine=1;sketch=0;shadow=0;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-140" y="-160" width="290" height="261" as="geometry">
@@ -189,7 +189,7 @@
           <mxGeometry y="115" width="290" height="146" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-79" value="VehicleController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-800" y="677" width="481.75" height="170" as="geometry" />
+          <mxGeometry x="-800" y="677" width="481.75" height="160" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-80" value="- vehicle: vector&lt;Vehicle&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="rfrBUhaxzowPUc6iKHgh-79" vertex="1">
           <mxGeometry y="26" width="481.75" height="34" as="geometry" />
@@ -198,7 +198,7 @@
           <mxGeometry y="60" width="481.75" height="8" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-82" value="+ addVehicle(ID: int, weight: int, capacity: int, fuel: int): void&#xa;+ removeVehicle(ID: int): bool&#xa;+ getVehicleList(): vector&lt;Vehicle&gt;&#xa;+ getVehicleInfo(ID: int): Vehicle&#xa;+ updateVehicleInfo(ID: int, weight: int, capacity: int, fuel: int): bool&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-79" vertex="1">
-          <mxGeometry y="68" width="481.75" height="102" as="geometry" />
+          <mxGeometry y="68" width="481.75" height="92" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;endArrow=diamond;endFill=0;endSize=17;exitX=0.263;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rfrBUhaxzowPUc6iKHgh-34" target="rfrBUhaxzowPUc6iKHgh-17" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -218,16 +218,16 @@
           <mxGeometry y="58" width="379" height="99" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-103" value="RouteController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-850.5" y="300" width="331" height="148" as="geometry" />
+          <mxGeometry x="-850.5" y="300" width="290.5" height="148" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-104" value="- route: vector&lt;Route&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="rfrBUhaxzowPUc6iKHgh-103" vertex="1">
-          <mxGeometry y="26" width="331" height="24" as="geometry" />
+          <mxGeometry y="26" width="290.5" height="24" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-105" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="rfrBUhaxzowPUc6iKHgh-103" vertex="1">
-          <mxGeometry y="50" width="331" height="8" as="geometry" />
+          <mxGeometry y="50" width="290.5" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="rfrBUhaxzowPUc6iKHgh-106" value="+ addRoute(): void&#xa;+ removeVehicle(ID: int): bool&#xa;+ getRouteList(): vector&lt;Route&gt;&#xa;+ getRouteInfo(ID: int): Route&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-103" vertex="1">
-          <mxGeometry y="58" width="331" height="90" as="geometry" />
+        <mxCell id="rfrBUhaxzowPUc6iKHgh-106" value="+ addRoute(): void&#xa;+ removeRoute(ID: int): bool&#xa;+ getRouteList(): vector&lt;Route&gt;&#xa;+ getRouteInfo(ID: int): Route&#xa;+ updateRoute(ID: int,street: vector&lt;Street&gt;): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-103" vertex="1">
+          <mxGeometry y="58" width="290.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=diamond;endFill=0;strokeWidth=1;endSize=17;entryX=-0.002;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="rfrBUhaxzowPUc6iKHgh-69" target="rfrBUhaxzowPUc6iKHgh-71" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -239,11 +239,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rfrBUhaxzowPUc6iKHgh-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=diamond;endFill=0;endSize=17;jumpStyle=arc;exitX=1.01;exitY=0.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.002;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rfrBUhaxzowPUc6iKHgh-65" target="rfrBUhaxzowPUc6iKHgh-82" edge="1">
+        <mxCell id="rfrBUhaxzowPUc6iKHgh-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=diamond;endFill=0;endSize=17;jumpStyle=arc;exitX=1.01;exitY=0.045;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rfrBUhaxzowPUc6iKHgh-65" target="rfrBUhaxzowPUc6iKHgh-82" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="-877" y="731" />
               <mxPoint x="-850" y="731" />
               <mxPoint x="-850" y="760" />
+              <mxPoint x="-810" y="760" />
             </Array>
             <mxPoint x="-810" y="760" as="targetPoint" />
           </mxGeometry>
