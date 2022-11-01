@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T05:35:56.345Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0oru0mXeo-9DL7gcjtVX" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T05:38:47.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3nwkFvkvusALtXfRQ_V_" version="20.5.1" type="github">
   <diagram id="it1Z7c8Y9GFUxKlOiuhM" name="Page-1">
-    <mxGraphModel dx="3372" dy="2104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2636" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -316,13 +316,15 @@
         <mxCell id="ReGKbzpj1-JdRHod0lEE-28" value="+ addArea(ID: int, location: vector&lt;int&gt;): void&#xa;+ removeArea(ID: int): bool&#xa;+ getAreaList(): vector&lt;Vehicle&gt;&#xa;+ getAreaInfo(ID: int): Vehicle&#xa;+ updateAreaInfo(ID: int, location: vector&lt;int&gt;): bool&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ReGKbzpj1-JdRHod0lEE-25">
           <mxGeometry y="58" width="481.75" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="ReGKbzpj1-JdRHod0lEE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=diamond;endFill=0;endSize=17;jumpStyle=arc;exitX=1;exitY=0.225;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ReGKbzpj1-JdRHod0lEE-24" target="ReGKbzpj1-JdRHod0lEE-28">
+        <mxCell id="ReGKbzpj1-JdRHod0lEE-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;endArrow=diamond;endFill=0;endSize=17;jumpStyle=arc;exitX=1;exitY=0.225;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.269;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ReGKbzpj1-JdRHod0lEE-24" target="ReGKbzpj1-JdRHod0lEE-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="-409" y="216" />
               <mxPoint x="-380" y="216" />
               <mxPoint x="-380" y="245" />
+              <mxPoint x="-350" y="245" />
             </Array>
-            <mxPoint x="-340" y="245" as="targetPoint" />
+            <mxPoint x="-350" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ReGKbzpj1-JdRHod0lEE-31" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.409;entryY=1.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.686;exitY=-0.001;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="ReGKbzpj1-JdRHod0lEE-25" target="7kjMkiJn64rXB7s4G2cb-2">
