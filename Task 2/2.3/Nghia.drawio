@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T19:22:09.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YYmfl_MFBx249b1qMwJS" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-05T19:31:22.595Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yIz1FRqi-h4fX6tcq-7m" version="20.5.1" type="github">
   <diagram id="it1Z7c8Y9GFUxKlOiuhM" name="Page-1">
-    <mxGraphModel dx="3716" dy="2291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2479" dy="1618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -279,12 +279,12 @@
           <mxGeometry y="26" width="300" height="164" as="geometry" />
         </mxCell>
         <mxCell id="7kjMkiJn64rXB7s4G2cb-3" value="AdminManageView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="301" y="-850" width="300" height="190" as="geometry">
+          <mxGeometry x="301" y="-850" width="300" height="130" as="geometry">
             <mxRectangle x="290" y="150" width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7kjMkiJn64rXB7s4G2cb-4" value="+ showWorkerList(): void&#xa;+ showWorkerInfo(): void&#xa;+ showVehicleList(): void&#xa;+ showVehicleInfo(): void&#xa;+ showMCPMap(): void&#xa;+ showMCPInfo(): void&#xa;+ showRouteList(): void&#xa;+ showRouteInfo(): void &#xa;+ showRouteMap(): void&#xa;+ showAreaMap(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7kjMkiJn64rXB7s4G2cb-3" vertex="1">
-          <mxGeometry y="26" width="300" height="164" as="geometry" />
+        <mxCell id="7kjMkiJn64rXB7s4G2cb-4" value="+ showWorkerPage(): void&#xa;+ showVehiclePage(): void&#xa;+ showMCPMap(): void&#xa;+ showRouteMap(): void&#xa;+ showAreaMap(): void&#xa;+ refreshPage(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="7kjMkiJn64rXB7s4G2cb-3" vertex="1">
+          <mxGeometry y="26" width="300" height="104" as="geometry" />
         </mxCell>
         <mxCell id="7kjMkiJn64rXB7s4G2cb-5" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.475;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.474;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="7kjMkiJn64rXB7s4G2cb-1" target="7kjMkiJn64rXB7s4G2cb-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
