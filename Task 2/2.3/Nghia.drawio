@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T16:36:32.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bnvuhzm7140m2-5ex8hT" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T16:39:21.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JFToumqK-RvJRckO770d" version="20.5.3" type="github">
   <diagram id="it1Z7c8Y9GFUxKlOiuhM" name="Page-1">
-    <mxGraphModel dx="2570" dy="1668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2943" dy="1870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,12 +16,12 @@
         <mxCell id="rfrBUhaxzowPUc6iKHgh-4" value="+ getWorkerList(): void&#xa;+ getMCPList(): void&#xa;+ getVehicleList(): void&#xa;+ getRouteList() :void&#xa;+ assignRoute(): void&#xa;+ assignArea(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-1" vertex="1">
           <mxGeometry y="134" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rfrBUhaxzowPUc6iKHgh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.005;entryY=0.479;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rfrBUhaxzowPUc6iKHgh-7" target="rfrBUhaxzowPUc6iKHgh-20" edge="1">
+        <mxCell id="rfrBUhaxzowPUc6iKHgh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rfrBUhaxzowPUc6iKHgh-7" target="rfrBUhaxzowPUc6iKHgh-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1190" y="-49" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1180" y="-18" />
-              <mxPoint x="1180" y="-8" />
+              <mxPoint x="1180" y="-7" />
             </Array>
             <mxPoint x="1163.797" y="-7.16800000000012" as="sourcePoint" />
           </mxGeometry>
@@ -51,16 +51,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-17" value="Worker" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="-170" width="330" height="230" as="geometry" />
+          <mxGeometry x="1250" y="-170" width="330" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="rfrBUhaxzowPUc6iKHgh-18" value="- workerID: int&#xa;- name: string&#xa;- type: string&#xa;- workSchedule: WorkingSchedule" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="rfrBUhaxzowPUc6iKHgh-17" vertex="1">
-          <mxGeometry y="26" width="330" height="64" as="geometry" />
+        <mxCell id="rfrBUhaxzowPUc6iKHgh-18" value="- workerID: int&#xa;- name: string&#xa;- type: string&#xa;- phoneNumber: string&#xa;- address: string&#xa;- email: string&#xa;- SSN: string&#xa;- gender: char&#xa;- workSchedule: WorkingSchedule" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="rfrBUhaxzowPUc6iKHgh-17" vertex="1">
+          <mxGeometry y="26" width="330" height="144" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="rfrBUhaxzowPUc6iKHgh-17" vertex="1">
-          <mxGeometry y="90" width="330" height="8" as="geometry" />
+          <mxGeometry y="170" width="330" height="8" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-20" value="+ getName(): string&#xa;+ getWorkSchedule(): WorkingSchedule&#xa;+ getType(): string&#xa;+ getWorkerID(): int&#xa;+ setName(name: string): void&#xa;+ setWorkSchedule(workSchedule: WorkingSchedule): void&#xa;+ setType(type: string): void&#xa;+ setWorkerID(workerID: int): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-17" vertex="1">
-          <mxGeometry y="98" width="330" height="132" as="geometry" />
+          <mxGeometry y="178" width="330" height="132" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-58" value="Route" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-720" y="-110" width="333.5" height="138" as="geometry" />
@@ -123,7 +123,7 @@
           <mxGeometry y="68" width="481.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-98" value="WorkerModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="460" y="-163" width="379" height="220" as="geometry" />
+          <mxGeometry x="460" y="-163" width="379" height="168" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-99" value="- janitors: vector&lt;Janitor&gt;&#xa;- collectors: vector&lt;Collector&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="rfrBUhaxzowPUc6iKHgh-98" vertex="1">
           <mxGeometry y="26" width="379" height="34" as="geometry" />
@@ -131,8 +131,8 @@
         <mxCell id="rfrBUhaxzowPUc6iKHgh-100" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="rfrBUhaxzowPUc6iKHgh-98" vertex="1">
           <mxGeometry y="60" width="379" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="rfrBUhaxzowPUc6iKHgh-101" value="+ addJanitor(ID: int, name: string, type: string): void&#xa;+ removeJanitor(ID: int): bool&#xa;+ getJanitorList(): vector&lt;Janitor&gt;&#xa;+ getJanitorInfo(ID: int): Janitor&#xa;+ updateJanitorInfo(ID: int, name: string, type: string): bool&#xa;+ addCollector(ID: int, name: string, type: string): void&#xa;+ removeCollector(ID: int): bool&#xa;+ getCollectorList(): vector&lt;Collector&gt;&#xa;+ getCollectorInfo(ID: int): Collector&#xa;+ updateCollectorInfo(ID: int, name: string, type: string): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-98" vertex="1">
-          <mxGeometry y="68" width="379" height="152" as="geometry" />
+        <mxCell id="rfrBUhaxzowPUc6iKHgh-101" value="+ getJanitorList(): vector&lt;Janitor&gt;&#xa;+ getJanitorInfo(ID: int): Janitor&#xa;+ updateJanitorInfo(ID: int, name: string, type: string): bool&#xa;+ getCollectorList(): vector&lt;Collector&gt;&#xa;+ getCollectorInfo(ID: int): Collector&#xa;+ updateCollectorInfo(ID: int, name: string, type: string): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-98" vertex="1">
+          <mxGeometry y="68" width="379" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-103" value="RouteModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-330.5" y="-94" width="290.5" height="96" as="geometry" />
@@ -229,10 +229,14 @@
             <mxPoint x="700" y="43.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KOLZR0PlmoD9R6dl91zu-4" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.999;entryY=0.745;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="rfrBUhaxzowPUc6iKHgh-7" target="rfrBUhaxzowPUc6iKHgh-101" edge="1">
+        <mxCell id="KOLZR0PlmoD9R6dl91zu-4" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.999;entryY=0.745;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" target="rfrBUhaxzowPUc6iKHgh-101" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="540" y="43.5" as="sourcePoint" />
+            <mxPoint x="961" y="-20" as="sourcePoint" />
             <mxPoint x="700" y="43.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="961" y="-20" />
+              <mxPoint x="900" y="-20" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KOLZR0PlmoD9R6dl91zu-5" value="WorkingSchedule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
