@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T16:39:21.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="JFToumqK-RvJRckO770d" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T16:40:51.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8uG6gqBcLRdSyTXbU-cX" version="20.5.3" type="github">
   <diagram id="it1Z7c8Y9GFUxKlOiuhM" name="Page-1">
-    <mxGraphModel dx="2943" dy="1870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3127" dy="1970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,7 +87,7 @@
           <mxGeometry y="98" width="221" height="72" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-66" value="MCP" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-930" y="-350" width="345" height="160" as="geometry" />
+          <mxGeometry x="-930" y="-350" width="345" height="170" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-67" value="- mcpID: int&#xa;- address: string&#xa;- maxCapacity: int&#xa;- currentCapacity: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="rfrBUhaxzowPUc6iKHgh-66" vertex="1">
           <mxGeometry y="26" width="345" height="64" as="geometry" />
@@ -96,7 +96,7 @@
           <mxGeometry y="90" width="345" height="8" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-69" value="+ getID(): int&#xa;+ getAddress(): string&#xa;+ getMaxCapacity(): int&#xa;+ getCurrentCapacity(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-66" vertex="1">
-          <mxGeometry y="98" width="345" height="62" as="geometry" />
+          <mxGeometry y="98" width="345" height="72" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-70" value="MCPsModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-484.65" y="-290" width="450" height="100" as="geometry" />
@@ -123,16 +123,16 @@
           <mxGeometry y="68" width="481.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-98" value="WorkerModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;direction=east;" parent="1" vertex="1">
-          <mxGeometry x="460" y="-163" width="379" height="168" as="geometry" />
+          <mxGeometry x="460" y="-163" width="420" height="168" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-99" value="- janitors: vector&lt;Janitor&gt;&#xa;- collectors: vector&lt;Collector&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="rfrBUhaxzowPUc6iKHgh-98" vertex="1">
-          <mxGeometry y="26" width="379" height="34" as="geometry" />
+          <mxGeometry y="26" width="420" height="34" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-100" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="rfrBUhaxzowPUc6iKHgh-98" vertex="1">
-          <mxGeometry y="60" width="379" height="8" as="geometry" />
+          <mxGeometry y="60" width="420" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="rfrBUhaxzowPUc6iKHgh-101" value="+ getJanitorList(): vector&lt;Janitor&gt;&#xa;+ getJanitorInfo(ID: int): Janitor&#xa;+ updateJanitorInfo(ID: int, name: string, type: string): bool&#xa;+ getCollectorList(): vector&lt;Collector&gt;&#xa;+ getCollectorInfo(ID: int): Collector&#xa;+ updateCollectorInfo(ID: int, name: string, type: string): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-98" vertex="1">
-          <mxGeometry y="68" width="379" height="100" as="geometry" />
+        <mxCell id="rfrBUhaxzowPUc6iKHgh-101" value="+ getJanitorList(): vector&lt;Janitor&gt;&#xa;+ getJanitorInfo(ID: int): Janitor&#xa;+ updateJanitorSchedule(ID: int,workSchedule: WorkingSchedule): bool&#xa;+ getCollectorList(): vector&lt;Collector&gt;&#xa;+ getCollectorInfo(ID: int): Collector&#xa;+ updateCollectorSchedule(ID: int,workSchedule: WorkingSchedule): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-98" vertex="1">
+          <mxGeometry y="68" width="420" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-103" value="RouteModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-330.5" y="-94" width="290.5" height="96" as="geometry" />
