@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T16:36:13.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="o7BwDlOVDjWG902h4MkG" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T16:36:32.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bnvuhzm7140m2-5ex8hT" version="20.5.3" type="github">
   <diagram id="it1Z7c8Y9GFUxKlOiuhM" name="Page-1">
-    <mxGraphModel dx="4403" dy="2665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2570" dy="1668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,7 +111,7 @@
           <mxGeometry y="58" width="450" height="42" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-79" value="VehicleModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="310" y="210" width="481.75" height="160" as="geometry" />
+          <mxGeometry x="310" y="210" width="481.75" height="108" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-80" value="- vehicle: vector&lt;Vehicle&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="rfrBUhaxzowPUc6iKHgh-79" vertex="1">
           <mxGeometry y="26" width="481.75" height="34" as="geometry" />
@@ -119,8 +119,8 @@
         <mxCell id="rfrBUhaxzowPUc6iKHgh-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="rfrBUhaxzowPUc6iKHgh-79" vertex="1">
           <mxGeometry y="60" width="481.75" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="rfrBUhaxzowPUc6iKHgh-82" value="+ addVehicle(ID: int, weight: int, capacity: int, fuel: int): void&#xa;+ removeVehicle(ID: int): bool&#xa;+ getVehicleList(): vector&lt;Vehicle&gt;&#xa;+ getVehicleInfo(ID: int): Vehicle&#xa;+ updateVehicleInfo(ID: int, weight: int, capacity: int, fuel: int): bool&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-79" vertex="1">
-          <mxGeometry y="68" width="481.75" height="92" as="geometry" />
+        <mxCell id="rfrBUhaxzowPUc6iKHgh-82" value="+ getVehicleList(): vector&lt;Vehicle&gt;&#xa;+ getVehicleInfo(ID: int): Vehicle&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="rfrBUhaxzowPUc6iKHgh-79" vertex="1">
+          <mxGeometry y="68" width="481.75" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rfrBUhaxzowPUc6iKHgh-98" value="WorkerModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;direction=east;" parent="1" vertex="1">
           <mxGeometry x="460" y="-163" width="379" height="220" as="geometry" />
