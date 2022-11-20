@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T16:44:06.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gPoNwm3nGBj83SQ2ZCJM" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T16:45:28.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1FKKFB5ey7ARWjTJDaAs" version="20.5.3" type="github">
   <diagram id="it1Z7c8Y9GFUxKlOiuhM" name="Page-1">
-    <mxGraphModel dx="2252" dy="1494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3447" dy="2145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -296,7 +296,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ReGKbzpj1-JdRHod0lEE-21" value="Area" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-640" y="110" width="231" height="130" as="geometry" />
+          <mxGeometry x="-640" y="110" width="231" height="134" as="geometry" />
         </mxCell>
         <mxCell id="ReGKbzpj1-JdRHod0lEE-22" value="- ID: int&#xa;- streets: vector&lt;Street&gt;&#xa;- mcp: vector&lt;MCP&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ReGKbzpj1-JdRHod0lEE-21" vertex="1">
           <mxGeometry y="26" width="231" height="50" as="geometry" />
@@ -304,8 +304,8 @@
         <mxCell id="ReGKbzpj1-JdRHod0lEE-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ReGKbzpj1-JdRHod0lEE-21" vertex="1">
           <mxGeometry y="76" width="231" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="ReGKbzpj1-JdRHod0lEE-24" value="+ getID(): int&#xa;+ getLocation(): vector&lt;int&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ReGKbzpj1-JdRHod0lEE-21" vertex="1">
-          <mxGeometry y="84" width="231" height="46" as="geometry" />
+        <mxCell id="ReGKbzpj1-JdRHod0lEE-24" value="+ getID(): int&#xa;+ getStreets(): vector&lt;Street&gt;&#xa;+ getMCPs(): vector&lt;MCP&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ReGKbzpj1-JdRHod0lEE-21" vertex="1">
+          <mxGeometry y="84" width="231" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ReGKbzpj1-JdRHod0lEE-25" value="AreaModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-330" y="162" width="481.75" height="98" as="geometry" />
