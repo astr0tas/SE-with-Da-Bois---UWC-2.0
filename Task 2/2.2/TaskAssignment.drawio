@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T08:26:01.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ndq8asxQWTvYMiQmlrjf" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T17:14:09.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ELZpj_zUtVzsY011YsLs" version="20.5.3" type="github">
   <diagram id="wTYYPFrZuewPzAmAuWwE" name="Page-1">
-    <mxGraphModel dx="4576" dy="2040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,7 +166,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkrP5aUea3qUz_NBRGNI-40" value="Highlight chosen route on the map" style="endArrow=classic;html=1;rounded=0;entryX=1.141;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="zkrP5aUea3qUz_NBRGNI-40" value="Show tick on the checkbox" style="endArrow=classic;html=1;rounded=0;entryX=1.141;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0426" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="238.99000000000035" y="1200" as="sourcePoint" />
             <mxPoint x="-8.599999999999852" y="1200.6899999999996" as="targetPoint" />
@@ -265,7 +265,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkrP5aUea3qUz_NBRGNI-65" value="Show map" style="endArrow=classic;html=1;rounded=0;exitX=-0.06;exitY=0.234;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.957;entryY=0.234;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="zkrP5aUea3qUz_NBRGNI-65" value="Show route list" style="endArrow=classic;html=1;rounded=0;exitX=-0.06;exitY=0.234;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.957;entryY=0.234;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0426" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="242.2799999999985" y="940" as="sourcePoint" />
             <mxPoint x="-7.550000000000523" y="940" as="targetPoint" />
@@ -353,7 +353,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkrP5aUea3qUz_NBRGNI-80" value="Show map" style="endArrow=classic;html=1;rounded=0;exitX=-0.06;exitY=0.234;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.957;entryY=0.234;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="zkrP5aUea3qUz_NBRGNI-80" value="Show area list" style="endArrow=classic;html=1;rounded=0;exitX=-0.06;exitY=0.234;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.957;entryY=0.234;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0426" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="243.41999999999905" y="1830" as="sourcePoint" />
             <mxPoint x="-6.410000000000878" y="1830" as="targetPoint" />
@@ -381,7 +381,7 @@
             <mxPoint x="499.55999999999983" y="1570.0000000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkrP5aUea3qUz_NBRGNI-89" value="Hightlight chosen section on the map" style="endArrow=classic;html=1;rounded=0;entryX=1.141;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="zkrP5aUea3qUz_NBRGNI-89" value="Show tick on the checkbox" style="endArrow=classic;html=1;rounded=0;entryX=1.141;entryY=0.603;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.0426" y="-10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="243.41999999999996" y="2100.5499999999993" as="sourcePoint" />
             <mxPoint x="-4.1700000000001864" y="2101.24" as="targetPoint" />
@@ -486,7 +486,7 @@
         <mxCell id="6wIm65cFakoA2pX9dvvW-39" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;[ Until the section is assigned ]&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-512.72" y="1920" width="110" height="11" as="geometry" />
         </mxCell>
-        <mxCell id="DvP52ncTQiw58WvtzydE-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.229;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" edge="1" parent="1">
+        <mxCell id="DvP52ncTQiw58WvtzydE-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.229;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=3;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-579.9999999999999" y="670.0025000000005" as="sourcePoint" />
             <mxPoint x="611.1399999999995" y="671.6700000000001" as="targetPoint" />
